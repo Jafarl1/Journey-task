@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main{
@@ -26,6 +27,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.acc {
+    display: none;
+    cursor: pointer;
 }
 .links {
     display: flex;
@@ -182,4 +187,32 @@ form button {
     font-size: 17px;
     letter-spacing: 1px;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 930px) {
+    .nav {
+        padding: 0 50px;
+    }
+    .welcome p{
+        display: none;
+    }
+    .acc {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .nav {
+        padding: 0 10px;
+    }
+    .welcome p{
+        display: none;
+    }
+    .acc {
+        display: block;
+    }
+    .login {
+        width: 360px;
+    }
 }

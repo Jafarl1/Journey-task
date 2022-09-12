@@ -16,11 +16,14 @@ function Navbar() {
                     </div>
                     <div className="welcome">
                         <p>
-                            Welcome, 
+                            Welcome,
                             <span> Log In </span>
-                            or 
+                            or
                             <span> Sign Up </span>
                         </p>
+                        <div className="acc">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
                     </div>
                 </div>
             </div>
