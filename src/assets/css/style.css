@@ -206,13 +206,10 @@ form button {
     .nav {
         padding: 0 10px;
     }
-    .welcome p{
-        display: none;
-    }
-    .acc {
-        display: block;
-    }
     .login {
-        width: 360px;
+        width: 340px;
+    }
+    .links {
+        display: none;
     }
 }
