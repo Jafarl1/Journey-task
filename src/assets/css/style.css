@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../images/back.jpeg);
+    background: cover no-repeat center; 
+}
+.nav {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    color: white;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    gap: 22px;
+    padding: 0 25px;
+    border-right: 1px solid rgba(128, 128, 128, 0.6);
+    cursor: pointer;
+}
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 25px;
+}
+.welcome span {
+    color: darkgreen;
+    cursor: pointer;
+}
+.signup {
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    width: 400px;
+    height: 520px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+    padding: 20px 50px;
+    position: relative;
+}
+.login::after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    background-color: rgb(72, 154, 72);
+}
+.heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socials {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px 30px 0px;
+}
+.facebook_btn,
+.google_btn {
+    width: 48%;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 18px;
+    color: white;
+}
+.icon {
+    width: 25%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.socials span {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    position: relative;
+    margin-bottom: 25px;
+}
+.line span {
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(95, 95, 95);
+    font-size: 18px;
+}
+.form {
+    width: 100%;
+}
+.form input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    outline: none;
+    border-radius: 3px;
+    padding-left: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .2s;
+}
+.form input::placeholder {
+    color: rgba(128, 128, 128, 0.4);
+}
+.clicked {
+    border: 1px solid transparent !important;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.check_label {
+    height: 40px;
+    padding-top: 10px;
+    display: flex;
+    position: relative;
+}
+.check_label span {
+    cursor: pointer;
+    color: darkgreen;
+}
+#check {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+form button {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(72, 154, 72);
+    color: white;
+    border: 1px solid rgb(72, 154, 72);
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
